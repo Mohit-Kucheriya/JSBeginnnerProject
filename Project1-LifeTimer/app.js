@@ -85,8 +85,8 @@ const setDOB = () => {
     handleToggler();
 };
 
-localStorageGetter();
 handleToggler();
+localStorageGetter();
 settingIcon.addEventListener("click", toggleDOBSelector);
 
 dobButton.addEventListener("click", setDOB);
